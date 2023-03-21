@@ -17,6 +17,7 @@
     $manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");
     $query = new MongoDB\Driver\Query([],['limit' => 300, 'sort' => [$trieur => $ordonner]]);
     $namespace = 'tests.restaurants';
+
 ?>
 
 <!DOCTYPE html>
@@ -70,6 +71,7 @@
             echo "<td>".$document->borough."</td>";
             echo "<td>".$document->address->zipcode."</td>";
             echo "<td>".$document->restaurant_id."</td>";
+
             echo "</tr>";
         }
         echo "</table>";
