@@ -12,7 +12,7 @@ On a pas eu le temps de finir la page des favoris et nous n'avons pas eu le temp
 
 - [@Yves](https://github.com/Arseid)
 - [@Ryan](https://github.com/Ryan-MARIN)
-- [@Ghuilem](https://github.com/GuilhemMagaud)
+- [@Guilhem](https://github.com/GuilhemMagaud)
 - [@Valentin](https://github.com/valuxdcs)
-- [@Sinclair](https://www.github.com/octokatherine)
+- [@Sinclair]([https://www.github.com/octokatherine](https://github.com/Sinclqir)
 
