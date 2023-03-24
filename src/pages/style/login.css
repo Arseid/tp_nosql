@@ -1,0 +1,98 @@
+div.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+  overflow-y: hidden;
+  box-shadow: inset 0px 0px 0px 8px black;
+}
+
+div.title {
+  background-color: white;
+  padding: 16px;
+  padding-bottom: 10px;
+  border-style: solid;
+  border-color: black;
+  border-width: 4px;
+}
+
+div.panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  padding: 32px;
+  width: 100%;
+  max-width: 500px;
+}
+
+div.panel h1 {
+  color: white;
+  margin: 0px;
+  padding-bottom: 8px;
+}
+
+div.panel button {
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  color: khaki;
+  background-color: black;
+  border: 4px solid khaki;
+  cursor: pointer;
+}
+
+div.panel form {
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  align-items: center;
+}
+
+div.panel button:hover {
+  color: white;
+  border-color: white;
+}
+
+div.panel div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+div.panel div.space {
+  height: 32px;
+}
+
+div.panel label {
+  color: white;
+  font-size: 24px;
+}
+
+div.panel div:hover label {
+  color: khaki;
+}
+
+div.panel input {
+  height: 40px;
+  padding-left: 8px;
+  margin-top: 8px;
+  border: 0px;
+  font-size: 20px;
+}
+
+div.panel input.submit {
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: khaki;
+  color: black;
+  border: 0;
+  margin-top: 32px;
+}
+
+div.panel input.submit:hover {
+  background-color: white;
+  cursor: pointer;
+}

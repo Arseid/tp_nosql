@@ -1,0 +1,63 @@
+div.tablebox {
+  flex-wrap: wrap;
+  border-style: solid;
+  border-color: black;
+  border-width: 4px;
+  margin: 16px;
+  margin-top: 0px;
+  overflow: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  flex-wrap: wrap;
+  overflow-x: scroll;
+  background-color: white;
+}
+
+thead {
+  position: sticky;
+  top: 0;
+}
+
+tbody {
+  height: 200px;
+  overflow-y: scroll;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 16px;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+th:hover {
+  color: khaki;
+}
+
+tr:hover {
+  background-color: khaki;
+}
+
+th.sortable {
+  cursor: pointer;
+  background-image: url(../../img/sort_.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+.asc:after {
+  content: "\25b2";
+  color: white;
+}
+
+.desc:after {
+  content: "\25bc";
+  color: white;
+}

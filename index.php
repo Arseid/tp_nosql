@@ -47,16 +47,37 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>Connexion</title>
+    <title>Connectez-vous</title>
+    <link href="./src/img/favicon.ico" rel="shortcut icon" />
+    <link href="./src/pages/style/common.css" rel="stylesheet" />
+    <link href="./src/pages/style/login.css" rel="stylesheet" />
 </head>
 <body>
-<h1>Connexion</h1>
-<form method="post" action="index.php">
-    <label for="email">Email:</label>
-    <input type="text" id="email" name="email"><br><br>
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password"><br><br>
-    <input type="submit" value="Submit">
-</form>
+<div class="container">
+    <div class="title">
+        <img
+                class="logo"
+                alt="logo"
+                src="./src/img/logo_black.png"
+                width="400px"
+        />
+    </div>
+    <div class="panel">
+        <h1>SE CONNECTER</h1>
+        <form method="post" action="index.php">
+            <div class="space"></div>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email"><br><br>
+            </div>
+            <div class="space"></div>
+            <div>
+                <label for="password">Mot de passe</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <input type="submit" value="Submit" value="ENTRER →" />
+        </form>
+    </div>
+</div>
 </body>
 </html>
