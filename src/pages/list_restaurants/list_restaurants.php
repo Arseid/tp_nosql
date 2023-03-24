@@ -78,7 +78,12 @@
             echo "<td>".$document->borough."</td>";
             echo "<td>".$document->address->zipcode."</td>";
             echo "<td>".$document->restaurant_id."</td>";
-
+            echo "<td>";
+            echo "<form method='post' action='addToFavorites.php'>";
+            echo "<input type='hidden' name='restaurant_id' value='".$document->_id."' />";
+            echo "<input type='submit' value='Add to favorites' />";
+            echo "</form>";
+            echo "</td>";
             echo "</tr>";
         }
         echo "</table>";
