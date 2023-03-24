@@ -17,7 +17,7 @@ session_start();
 // Verify authentication information
 if (isset($_POST['email']) && isset($_POST['password'])) {
     $email = $_POST['email'];
-    $password = $_POST['password'];
+    $password = md5($_POST['password']);
 
     // Retrieve the user corresponding to the provided email
     foreach ($collection as $user) {
