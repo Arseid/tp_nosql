@@ -6,13 +6,13 @@ COPY --from=composer /usr/bin/composer /usr/bin/composer
 
 WORKDIR /var/www/html
 
-ADD page/ .
+ADD ./src .
 
-RUN apt update && apt install zip unzip git libcurl4-openssl-dev 
-pkg-config libssl-dev -y && apt upgrade -y
+ADD ./index.php .
 
-RUN pecl install mongodb && docker-php-ext-enable mongodb && pecl 
-config-set php_ini /usr/local/etc/php/php.ini
+RUN apt update && apt install zip unzip git libcurl4-openssl-dev pkg-config libssl-dev -y && apt upgrade -y
+
+RUN pecl install mongodb && docker-php-ext-enable mongodb && pecl config-set php_ini /usr/local/etc/php/php.ini
  
 RUN composer require mongodb/mongodb && composer dump-autoload
 
