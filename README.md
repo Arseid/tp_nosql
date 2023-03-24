@@ -1,6 +1,8 @@
 
 # Cas pratique final
 
+Pour la partie back-end en php, la connexion et la liste de restaurants sont fonctionnelles.
+
 # Issues 
 
 Nous avons tous eu beaucoup de problèmes liés à l'extension php de MongoDB, en effet la documentation que vous nous avez envoyé (l'utilisation de la classe MongoDB\Client ) ne marche que pour 2 d'entres nous (Sinclair et Ryan). Pour les 2 autres développeurs (Yves et Guilhem), uniquement l'utilisation de la classe MongoDB\Driver\Manager est fonctionnel.
