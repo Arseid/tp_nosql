@@ -1,5 +1,12 @@
 <?php
-    
+    session_start();
+
+    if (!isset($_SESSION['user']->_id)) {
+        // Si l'utilisateur n'est pas connecté, redirige-le vers la page de connexion
+        header("Location: /index.php");
+        exit();
+    }
+
     $trieur;
     if( empty($_POST['trie']) ){
         $trieur = "_id";
@@ -33,10 +40,10 @@
                     alphabétique
                 </option>
                 <option value='restaurant_id'>
-                    ordre d insertion 
+                    ordre d insertion
                 </option>
                 <option value='_id'>
-                    restaurant_id 
+                    restaurant_id
                 </option>
                 <option value='cuisine'>
                     type de cuisine
