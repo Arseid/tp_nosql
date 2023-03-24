@@ -15,4 +15,4 @@ On a pas eu le temps de finir la page des favoris et nous n'avons pas eu le temp
 - [@Guilhem](https://github.com/GuilhemMagaud)
 - [@Valentin](https://github.com/valuxdcs)
 - [@Sinclair](https://github.com/Sinclqir)
-
+- Terrence
