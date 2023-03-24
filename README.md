@@ -14,5 +14,5 @@ On a pas eu le temps de finir la page des favoris et nous n'avons pas eu le temp
 - [@Ryan](https://github.com/Ryan-MARIN)
 - [@Guilhem](https://github.com/GuilhemMagaud)
 - [@Valentin](https://github.com/valuxdcs)
-- [@Sinclair]([https://www.github.com/octokatherine](https://github.com/Sinclqir)
+- [@Sinclair](https://github.com/Sinclqir)
 
